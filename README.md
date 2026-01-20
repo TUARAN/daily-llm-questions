@@ -36,6 +36,9 @@
 - `tools/`  
   用脚本把"提问"变成流程。
 
+- `writings/`  
+  使用 LLM 辅助创作的文档和深度内容。
+
 ## 使用方式
 
 主要通过 VS Code / Cursor 进行：
@@ -64,6 +67,9 @@ daily-llm-questions/
 │  ├─ daily.md
 │  ├─ research.md
 │  └─ writing.md
+├─ writings/                # LLM 辅助创作的文档
+│  ├─ 李飞飞与人工智能发展史.md
+│  └─ README.md
 ├─ tools/                   # 脚本 & 工具
 │  ├─ ask.py
 │  └─ README.md
